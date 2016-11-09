@@ -1,23 +1,23 @@
 CREATE TABLE bsme.servicio
     (seq_nro_servicio               NUMBER NOT NULL,
-    seq_nro_solicitud              NUMBER NOT NULL,
-    cod_tipo_servicio              VARCHAR2(8 BYTE) NOT NULL,
-    cod_estado                     VARCHAR2(4 BYTE) NOT NULL,
-    fecha_solicita                 DATE NOT NULL,
-    valor                          NUMBER(14,2) NOT NULL,
-    cantidad                       VARCHAR2(8 BYTE),
-    fecha_servicio                 DATE NOT NULL,
-    nro_factura                    VARCHAR2(25 BYTE),
-    comision                       NUMBER(14,2),
-    fecha_radicado                 DATE,
-    observaciones                  VARCHAR2(4000 BYTE),
-    cod_usr_solicita               VARCHAR2(3 BYTE) NOT NULL,
-    activo                         VARCHAR2(1 BYTE) NOT NULL,
-    usr_creacion                   VARCHAR2(3 BYTE) NOT NULL,
-    fecha_creacion                 DATE NOT NULL,
-    usr_ult_modificacion           VARCHAR2(3 BYTE) NOT NULL,
-    fecha_ult_modificacion         DATE NOT NULL,
-    archivo                        VARCHAR2(100 BYTE))
+     seq_nro_solicitud              NUMBER NOT NULL,
+     cod_tipo_servicio              VARCHAR2(8 BYTE) NOT NULL,
+     cod_estado                     VARCHAR2(4 BYTE) NOT NULL,
+     fecha_solicita                 DATE NOT NULL,
+     valor                          NUMBER(14,2) NOT NULL,
+     cantidad                       VARCHAR2(8 BYTE),
+     fecha_servicio                 DATE NOT NULL,
+     nro_factura                    VARCHAR2(25 BYTE),
+     comision                       NUMBER(14,2),
+     fecha_radicado                 DATE,
+     observaciones                  VARCHAR2(4000 BYTE),
+     cod_usr_solicita               VARCHAR2(3 BYTE) NOT NULL,
+     activo                         VARCHAR2(1 BYTE) NOT NULL,
+     usr_creacion                   VARCHAR2(3 BYTE) NOT NULL,
+     fecha_creacion                 DATE NOT NULL,
+     usr_ult_modificacion           VARCHAR2(3 BYTE) NOT NULL,
+     fecha_ult_modificacion         DATE NOT NULL,
+     archivo                        VARCHAR2(100 BYTE))
   TABLESPACE  datos1m
 /
 
@@ -35,7 +35,7 @@ GRANT SELECT ON bsme.servicio TO sintel_consulta
 GRANT UPDATE ON bsme.servicio TO sintel_actualizacion
 /
 
-
+--esta fue la linea que escribi
 
 
 -- Comments for BSME.SERVICIO
