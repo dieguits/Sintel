@@ -20,7 +20,7 @@ CREATE TABLE bsme.servicio
      archivo                        VARCHAR2(100 BYTE))
   TABLESPACE  datos1m
 /
-
+--soy un cambio mirenme como hago q el github me identifique como una nueva version
 -- Grants for Table
 GRANT DELETE ON bsme.servicio TO sintel_actualizacion
 /
